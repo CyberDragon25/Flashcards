@@ -1,0 +1,47 @@
+/* styles.css */
+.app-container {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 36px;
+    color: #f39c12;
+}
+
+.flashcard {
+    width: 350px;
+    height: 200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: black;
+    border: 2px solid #e74c3c;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.flashcard:hover {
+    background-color: #f1c40f;
+    transform: scale(1.05);
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #c0392b;
+}
